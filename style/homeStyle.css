@@ -1,0 +1,354 @@
+body{
+    background-color: rgb(89, 89, 89);
+}
+/* open header  */
+header{
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    border-radius: 5px;
+    background-color: rgb(163, 163, 163);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.profile{
+   display: flex;
+   align-items: center;
+   height: 59px;
+   width: auto;
+   padding: 3px;
+   margin: 5px;
+   transition: 0.3s;
+   border-radius: 3px;
+}
+.profile:hover{
+    cursor: pointer;
+    background-color: rgb(171, 171, 171);
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+
+}
+#proimg{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+.imgpro{
+    display: flex;
+    align-items: center;
+}
+#name{
+    margin-bottom: -3px;
+}
+#sname{
+    margin-top: -3px;
+}
+.names{
+    margin-left: 2px;
+}
+.companyLogo{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 110px;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 30x;
+}
+.companyLogo:hover{
+    cursor: pointer;
+    background-color: rgb(171, 171, 171);
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+}
+.headericons{
+    margin: 10px;
+    width: 60px;
+    border-radius: 3px;
+    transition: 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.headericons:hover{
+    cursor: pointer;
+    background-color: rgb(171, 171, 171);
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+}
+
+.dmenu{
+    background-color: rgb(163, 163, 163);
+    /* display: block; */
+    transition: opacity 0.5s ease;
+    border-radius: 5px;
+    top: 88px;
+    right: 8px;
+    position: absolute;
+    display: none;  
+    transition: 0.3s;      
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    transition: opacity 0.5s ease;
+
+
+}
+.mbtn{
+    background-color: rgb(163, 163, 163);
+    width: 100%;
+    border-style: none;
+    font-size: medium;
+    height: 30px;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.mbtn:hover{
+    /* background-color: rgb(204, 204, 204);*/
+    cursor: pointer; 
+    background-color: rgb(89, 89, 89);
+    color: white;
+
+}
+.mbtn:focus{
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+/* close header */
+
+/* open body */
+/* open lateral bar */
+.lateralBar{
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: rgb(163, 163, 163);
+    width: 200px;
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    padding: 5px;
+
+}
+.lbtn{
+    background-color: rgb(163, 163, 163);
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+    border-style: none;
+    padding-top: 2px;
+    height: 30px;
+    border-radius: 3px;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+    display: none;
+    
+}
+.lbtn:hover{
+    cursor: pointer; 
+    background-color: rgb(89, 89, 89);
+    color: white;
+    
+}
+.dr{
+    text-decoration: none;
+    display: none;
+
+}
+.hr{
+    text-decoration: none;
+    display: none;
+}
+.tb{
+    display: block;
+}
+
+/* close lateral bar */
+.vbody{
+    display: flex;
+    background-color: rgb(89, 89, 89);
+    
+}.vbody h1{
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+/* open tables */
+.tables{
+    display: flex;
+    background-color: rgb(89, 89, 89);
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    min-height: 200px;
+    margin: 5px;
+}
+/* .tb{
+    background-color: blueviolet;
+    text-align: center;
+    
+} */
+
+
+.nbt{
+    background-color: rgb(163, 163, 163);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+
+}
+.nbt h2{
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tb { 
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    width: auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.tb th, .tb td {
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    
+    
+}
+ /* .tb td:hover {
+  
+} */
+
+.tb thead tr {
+    background-color: rgb(89, 89, 89);
+    color: #ffffff;
+    text-align: center;
+}
+
+.tb tbody tr {
+    border-bottom: 1px solid #000000;
+    
+}
+
+.tb tbody tr:nth-of-type(even) {
+    background-color: rgb(197, 197, 197);
+
+}
+.delico{
+    /* background-color: aqua; */
+    margin-right: 2.5px;
+    border-radius: 3px;
+    padding: 3px;
+    transition: 0.3s;
+    display: block;
+}
+.delico:hover{
+    background-color: rgba(255, 0, 0, 0.534);
+    cursor: pointer;
+}
+.updico{
+    margin-left: 2.5px;
+    border-radius: 3px;
+    padding: 3px;
+    transition: 0.3s;
+    display: block;
+}
+.updico:hover{
+    background-color: rgba(0, 128, 0, 0.507);
+    cursor: pointer;
+}
+.opp{
+    display: flex;
+}
+.add{
+    border-style: none;
+    border-radius: 3px;
+    transition: 0.3s;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 197, 197);
+
+}
+.add:hover{
+    cursor: pointer;
+    background-color: rgba(81, 255, 81, 0.541);
+}
+.add:focus{
+    background-color: rgba(15, 146, 15, 0.541);
+}
+/* close tables */
+
+/* open forms */
+.form{
+    display: flex;
+    width: 50%;
+}
+.fcont{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(47, 47, 47);
+    background-color: rgb(163, 163, 163);
+
+}
+.flb{
+    font-size: larger;
+    color: black;
+}
+.inpt{background-color: #e6e6e6;
+    transition: 0.3s;
+    font-size: large;
+    border-radius: 3px;
+    border-style: none;
+    height: 25px;
+
+}
+.inpt:focus{
+    outline: none;
+    height: 30px;
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+}
+
+.sendbtn{
+    transition: 0.3s;
+    height: 35px;
+    width: 130px;
+    font-size: larger;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(207, 207, 207);
+}
+.sendbtn:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95);
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    color: white;
+}
+.sendbtn:focus{
+    background-color: rgb(55, 55, 55);
+}
+.bicon{
+    display: flex;
+    align-items: center;
+}
+
+.bbutton{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.bbutton:hover{
+    box-shadow: 0px 0px 10px rgb(47, 47, 47);
+    background-color: #c9c9c9;
+    cursor: pointer;
+}
+.bbutton:focus{
+    background-color: #727272;
+
+}
+/* close forms */
